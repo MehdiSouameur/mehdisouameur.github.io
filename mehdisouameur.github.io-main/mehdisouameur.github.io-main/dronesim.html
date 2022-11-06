@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mehdi Souameur's Portfolio - Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="projects.html" class="logo">Projects</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home page</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="aboutme.html">About me</a></li>
+						</ul>
+						<ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/mehdi-souameur-76964820a/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/MehdiSouameur" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<p><h1>Drone simulation</h1></p>
+								</header>
+							</article>
+							<a class="image fit"><img src="images/dronesim2.png" alt="" /></a>
+							<p>This is a drone simulation coded in java and javafx using an object-oriented structure. Different types of drones are put on a canvas and navigate obstacles.
+							An interface with different buttons allow the user to create their own simulation, save it and load a previously saved simulation.
+							Here is a list of the different entities in the simulation:<br/><br/>
+							-<b>Normal Drone:</b> A drone that spawns randomly in the drone arena and moves in a random direction at a random speed. The drone bounces
+							off the edges of the arena and other entities.<br/>
+							-<b>Boulder:</b> An obstacle which spawns randomly on the arena.<br/>
+							-<b>Zombie Drone:</b> A drone which will chase other drone entities and also turn them into zombie drones on contact. They are programmed
+							to hunt the closest drone entity, and cannot chase drones behind boulders.<br/>
+							-<b>Player Drone:</b> A drone which is controlled by the player using WASD.<br/>
+							-<b>Laser: </b> A laser which will shoot from the left side to the right of the screen at the height of the user's mouse click on the arena.
+						    Each entity has health, and if the laser makes contact with an entity, the entity will lose 1 health. When an entity is out of health,
+							it disappears from the arena. The laser can also be shot at a random height using a button.<br/>
+							</p>
+							<p>The project repository can be found on my github here: <a href="https://github.com/MehdiSouameur/DroneSimulation">https://github.com/MehdiSouameur/DroneSimulation</a><br/>
+						   </p>
+				    </div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>MehdiSouameur.ms@gmail.com</li><li>Source for design: <a href="https://html5up.net">HTML5 UP template: "Massively"</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
